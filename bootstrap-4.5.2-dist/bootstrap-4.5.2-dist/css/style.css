@@ -15,7 +15,7 @@
 body {
     position: relative;
     font-size: 18px;
-    font-family: 'avarabold' ,sans-serif;
+    font-family: 'Aref Ruqaa', serif;
 }
 
 h6{
@@ -265,6 +265,7 @@ h6{
     margin: 10px;
     width: 200px;
     height: 200px;
+    position: absolute;
 }
 .sb h4 {
     text-align: center;
@@ -277,11 +278,7 @@ h6{
     margin-left: 55px;
     margin-top: 10px;
 }
-.skill-box-2, .skill-box-3, .skill-box-4,.skill-box-1{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-}
+
 .skill-box-4 {
     background-color: black;
     opacity: 0.7;
@@ -352,7 +349,7 @@ footer{
     left: 0;
    
 }
-footer span h6 {
+footer span h4 {
     padding-top: 20px;
     color: white;
     font-family: 'Aref Ruqaa', serif;
@@ -360,6 +357,9 @@ footer span h6 {
 }
 footer span a {
     color: white;
+}
+footer span a:hover {
+    
     text-decoration: none;
 }
 
@@ -419,12 +419,3 @@ p {
 
 }
 
-.plane1 {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    top: 200px;
-    left: 10px;
-    transform: rotate(45deg);
-    
-}
