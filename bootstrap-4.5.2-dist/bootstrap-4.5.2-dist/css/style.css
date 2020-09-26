@@ -319,7 +319,6 @@ h6{
 .contact {
     height: 100vh;
     font-family: 'Aref Ruqaa', serif;
-    
 }
 
 .contact h1{
@@ -330,10 +329,6 @@ h6{
     margin-left: 15px;
     width: 100px;
 }
-/* .contact button span {
-    font-size: 16px;
-    padding:10px ;
-} */
 
 iframe {
     border-radius: 10px;
@@ -354,6 +349,7 @@ footer span h4 {
     color: white;
     font-family: 'Aref Ruqaa', serif;
     letter-spacing: 2px;
+font-size: 20px;
 }
 footer span a {
     color: white;

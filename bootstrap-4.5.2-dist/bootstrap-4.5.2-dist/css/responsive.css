@@ -9,6 +9,7 @@
    span , .navbar-toggler-icon{
        font-size: 35px;
        outline-style: none;
+       margin-top: 20px;
     }
        
     .navbar {
@@ -20,11 +21,12 @@
     .header{
         position: relative;
         display: flex;
+        margin-bottom: 50px;
     }
     .hero{
-        width: 100%;
-        height: 500px;
-        margin: 20px;
+        width: 90%;
+        height: 300px;
+        margin: 10px;
     }
     .hero img {
         width: 100%;
@@ -32,8 +34,24 @@
     }
     .about{
         position: relative;
-        height: 700px;
+       
     }
+    
+    .aboutme h2 {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    
+    .branding-1 ul li {
+        list-style: none;
+        text-decoration: none;
+        font-size: 32px;
+        display: inline-block;
+        padding-left: 30px;
+        padding-top: 15px;
+        margin-left: 5%;
+    }
+    
     .hero-2{
         background: url(../../../img/about.png);
         background-size: cover;
@@ -44,11 +62,7 @@
     }
     .hero-2 h1{
         transform: rotate(-90deg);
-        margin-left: 20px;
-    }
-    .branding-1 ul li {
-        font-size: 15px;
-     
+        margin-left: 45%;
     }
     .skill {
         height: 1500px;
@@ -57,43 +71,44 @@
         flex-direction: column;
     }
     .skill-html span {
-        margin-left: 50%;
+        margin-left: 70%;
         font-size: 15px;
     }
     .skill-css span {
         font-size: 15px;
-        margin-left: 60%;
+        margin-left: 75%;
     }
     .skill-js span {
         font-size: 15px;
-        margin-left: 38%;
+        margin-left: 62%;
     }
     
     .skill-2{
         padding-left: 20px;
-        margin-top: 10px;
         position: relative;
-        margin-top: 310px;
         overflow: hidden;
+        margin-top: -100px;
+        height: 500px;
        
     }
     .skill-box-2,
     .skill-box-4 {
         position: absolute;
         bottom: 0;
-        right: 0;
+        right: 10%;
     }
 
     .sb {
-        width: 40%;
-        height: 30%;
+        width: 35%;
+        height: 35%;
+        margin-left: 10%;
     }
     .sb h4 {
         text-align: center;
     }
     .sb a i {
-        font-size: 35px;
-        margin-left: 30px;
+        font-size: 38px;
+        margin-left: 40%;
     }
     iframe {
         width: 100%;
@@ -103,17 +118,15 @@
     .last {
         height: 50px;
         position: relative;
-        bottom: -1000px;
+        bottom: -500px;
         left: 0;
         overflow: hidden;
     }
     footer span h4{
-        font-size: 18px;
+        font-size: 14px;
         color: wheat;
-        padding-top: 0px;
-        position: absolute;
-        bottom: 10%;
-        left: 20%;
+        padding-top: 20px;
+     
     }
     footer span a {
         color: white;
