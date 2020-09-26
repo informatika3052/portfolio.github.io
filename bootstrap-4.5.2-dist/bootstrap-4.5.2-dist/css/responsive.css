@@ -55,13 +55,15 @@
         background: url(../../../img/about.png);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 320px;
+        height: 100%;
         width: 100%;
-        transform: rotate(90deg);
+        transform: rotate(180deg);
+        position: relative;
+        top: 0;
+        left: -20px;
     }
     .hero-2 h1{
-        transform: rotate(-90deg);
-        margin-left: 30%;
+        transform: rotate(170deg);
         font-size: 30px;
     }
     .skill {
