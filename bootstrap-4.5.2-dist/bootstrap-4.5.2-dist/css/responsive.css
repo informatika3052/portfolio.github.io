@@ -9,7 +9,7 @@
    span , .navbar-toggler-icon{
        font-size: 35px;
        outline-style: none;
-       margin-top: 20px;
+       margin-top: 10px;
     }
        
     .navbar {
@@ -109,7 +109,7 @@
     }
     .sb a i {
         font-size: 38px;
-        margin-left: 40%;
+        margin-left: 32%;
     }
     iframe {
         width: 100%;
