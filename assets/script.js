@@ -71,22 +71,10 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    scrollTo({
+    window.scrollTo({
+        top: 0,
+        left: 0,
         behavior: "smooth"
     });
 
 }
-// GSAP JS
-
-// let plane1 = document.querySelector('.plane1');
-// plane1 = gsap.timeline();
-
-// plane1.to(".plane1 ", { duration: 2, x: '1400px', y: '100px', ease: 'linier' });
-
-
-
-// var repeat = plane1.repeat();
-// plane1.repeat(5).yoyo(false).play();
-
