@@ -1,10 +1,3 @@
-@font-face {
-    font-family: 'avarabold','Underdog','Aref-Rugaa';
-    src: url('../../../fonts/avara-webfont.woff') format('woff'),
-    url('../../../fonts/underdog-regular-webfont.woff'),
-    url('../../../fonts/arefruqaa-regular-webfont.woff');
-
-}
 
 *{
     margin: 0;
@@ -15,27 +8,26 @@
 body {
     position: relative;
     font-size: 18px;
-    font-family: 'Aref Ruqaa', serif;
-}
-
-h6{
-    font-family: 'Aref Ruqaa', serif;
+    /* font-family: 'Montserrat', sans-serif; */
+     /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Rubik', sans-serif;  */
+    font-family: 'Kaisei HarunoUmi', serif;
 }
 
 /* NAVBAR */
 
 .navbar {
-    background-color: rgb(63, 53, 107);
+    background-color: #0e0d0d;
     box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
     z-index: 2;
-    font-family: 'Underdog', cursive;
+    font-size: 700;
     
 }
 .navbar-nav{
     padding-left: 50%;
 }
 .navbar-brand  {
-    font-family: 'Aref Ruqaa', serif;
     font-size: 1.2em;
     color: rgb(214, 195, 88);
 }
@@ -47,7 +39,8 @@ h6{
 /* HEADER */
 .header{
     position: relative;
-    background-color: rgb(250, 252, 248);
+    background-color: rgb(216, 181, 24);
+    min-height: 90vh;
 }
 .header::before{
     content: '';
@@ -58,33 +51,40 @@ h6{
     border-radius: 50%;
     animation: curut1 8s linear 0.5s infinite ;
 }
-
-.header{
-    position: relative;
-}
 .header-1{
     margin-top: 70px;
 }
 .header-1 h1 {
     font-size: 2.5em;
-    font-family: 'Underdog', cursive;
-    font-weight: 700;
+    font-weight: 900;
 }
-.header-1 h6 {
-    padding-top: 20px;
+
+.button-holder a.button:hover {
+    background-color: rgb(230, 230, 230);
+    color: #0e0d0d;
 }
-.header-1 a {
-    margin-top: 20px;
-    border-radius: 5px;
-    font-family: 'Aref Ruqaa', serif;
-}
-.header-1 a:hover {
-    background-color: rgb(70, 43, 192);
+ .button-holder a.button {
+    display: inline-block;
+    color: #fff;
+    background-color: #161816;
+    text-align: left;
+    margin-top: 8%;
+    padding: 10px 40px;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all .2s linear;
+    margin-bottom: 17px;
+    border: 2px solid #161816;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    box-sizing: border-box;
 }
 .hero{
-    width: 600px;
-    height: 500px;
-    background-color: rgb(214, 195, 88);
+    width: 500px;
+    height: 400px;
+    background-color: rgba(34, 34, 31, 0.493);
     overflow: hidden;
     border-top-right-radius: 80%;
     border-bottom-left-radius: 90%;
@@ -99,7 +99,6 @@ h6{
     top: -10;
     left: -10px;
 }
-
 .hero .mawar {
     margin-left: 50px;
     margin-top: 50px;
@@ -107,11 +106,16 @@ h6{
     height: 200px;
     transform: rotate(-100deg); 
 }
-
+.box {
+    top: 90%;
+    position: absolute;
+    width: 80%;
+    z-index: 909009;
+}
 .h-box{ 
-    height: 100px;
-    background-color: rgb(255, 255, 255);
-    position: relative;
+   height: 110px;
+    background-color: rgb(24, 21, 21);
+    color: rgb(216, 181, 24);
     border-radius: 10px;
     box-shadow: 2px 2px 15px rgba(0,0,0,0.2);  
     transition: 0.8s;
@@ -120,85 +124,78 @@ h6{
     transform: translateY(-30px);
     cursor: pointer;
 }
-
-.col {
-    position: absolute;
-    top: 20px;
-    left: 18%;
-    font-family: 'Underdog', cursive;
-}
-.col h5 {
-    color: rgb(255, 123, 0);
-    font-weight: 500;
-}
 .fa-laptop-code
 ,.fa-laptop-medical
 ,.fa-laptop-house{
    font-size: 30px;
-   margin-top: 30px;
 }
 
 
 /* Section */
 
-
-.hero-2{
-    background: url(../img/about.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 353px;
-    width: 500px;
-}
-.hero-2 h1{
-    padding: 70px;
-    font-family: 'Aref Ruqaa', serif;
-    color: rgb(255, 251, 0);
-}
 .about{
     position: relative;
+    min-height: 100vh;
+    background: url('../img/location.jpg');
+}
+.svg-gel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.container-about{
+    background-color: #0e0d0d;
+    top: 15%;
+    position: absolute;
+    width: 80%;
+    z-index: 9090;
+    border-radius: 10px;
+    height: 80%;
+    box-shadow:
+  0 5.5px 17px -3px rgba(0, 0, 0, 0.25),
+  0 18.3px 50px -3px rgba(0, 0, 0, 0.042),
+  0 82px 342px -3px rgba(0, 0, 0, 0.008)
+;
+
 }
 .about h2{
-    font-family: 'Aref Ruqaa', serif;
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    color: #f8f7f7;
 }
-.abouth,.skill-he {
-    font-family: 'Underdog', cursive;
-    font-size: 16px;
-    position: absolute;
-    top: 30%;
-    left: -10%;
-    transform: rotate(-90deg);
-    opacity: 0.5;
+.about h6{
+    line-height: 1.5;
+    color: #a7a7a7;
+    font-family: 'Roboto', sans-serif;
 }
-.abouth::before,.skill-he::before{
-    content: '';
-    width: 70px;
-    height: 1px;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: -110%;
-    background-color: rgb(60, 36, 105);
-    opacity: 0.5;
+.form-label{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(216, 181, 24);
 }
-
-.aboutme {
-    margin-top: 80px;
-    margin-left: 5px;
+h6.label-h6{
+    font-size: 1em;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
-
+.branding-1 ul {
+    padding: 0;
+}
 .branding-1 ul li {
     list-style: none;
     text-decoration: none;
     font-size: 32px;
     display: inline-block;
     padding-left: 30px;
-    padding-top: 15px;
+    margin-top: 10%;
 }
-.brand ul li a {
+.branding-1 ul li a {
     text-decoration: none;
     transition: 0.5s;
+    color: rgb(212, 194, 26);
 }
-.branding-1 ul li a .fa-facebook {
+/* .branding-1 ul li a .fa-facebook {
     color: blue;
 }
 .branding-1 ul li a .fa-instagram {
@@ -213,7 +210,7 @@ h6{
 
 .branding-1 ul li a .fab:hover {
     color: rgb(39, 41, 41);
-}
+} */
 
 /* Skill */
 .skill {
