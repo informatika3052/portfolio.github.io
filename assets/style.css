@@ -22,7 +22,6 @@ body {
     box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
     z-index: 2;
     font-size: 700;
-    
 }
 .navbar-nav{
     padding-left: 50%;
@@ -221,22 +220,6 @@ h6.label-h6{
     transition: 0.5s;
     color: rgb(212, 194, 26);
 }
-/* .branding-1 ul li a .fa-facebook {
-    color: blue;
-}
-.branding-1 ul li a .fa-instagram {
-    color: rgb(218, 90, 128);
-}
-.branding-1 ul li a .fa-whatsapp {
-    color: rgb(46, 238, 62);
-}
-.branding-1 ul li a .fa-github {
-    color: rgb(15, 29, 16);
-}
-
-.branding-1 ul li a .fab:hover {
-    color: rgb(39, 41, 41);
-} */
 
 /* Skill */
 .skill {
@@ -396,11 +379,14 @@ h6.label-h6{
     /* height: 100vh; */
     position: relative;
 }
+/* .contact .col-md-7 {
+    border: 2px soldi;
+} */
 .contact-sec{
     background-color: rgb(216, 181, 24);
     border-radius: 5px;
     margin-left: 1%;
-    margin: 5% 0;
+    margin: 5% auto;
 }
 .contact h1{
     margin: 4% 0;
@@ -415,6 +401,7 @@ h6.label-h6{
     font-family: 'Roboto', sans-serif;
 }
 .input-contact{
+    width: 100%;
     background: none;
     border-top: none;
     border-right: none;
@@ -440,7 +427,7 @@ h6.label-h6{
     transition: all .2s linear;
     margin-bottom: 17px;
     display: block;
-    width: 65%;
+    width: 100%;
     line-height: 35px;
     border: 2px solid rgb(247, 205, 21);
     border-radius: 50px;
@@ -465,6 +452,7 @@ h6.label-h6{
     margin-top: 10%;
 }
 .maps{
+    margin-top: 10%;
     border-radius: 4px;
     border: 5px solid black;
     box-shadow: 5px 5px 15px rgba(105, 103, 103, 0.5) ;

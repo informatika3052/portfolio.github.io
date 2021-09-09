@@ -11,145 +11,236 @@
        outline-style: none;
        margin-top: 10px;
     }
-       
-    .navbar {
-        background-color: rgb(63, 53, 107);
-        box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
-        font-family: 'Underdog', cursive;
-        
+   span , .navbar-toggler-icon .fa, .fas {
+    color: rgb(214, 195, 88);
     }
- 
-    .navbar .navbar-nav{
-        padding-left: 0%;
+    .navbar-nav {
+        padding-left:0;
     }
-    
+     .navbar-nav .nav-link {
+       margin: 2px 2px 10px;
+       padding: 1px;
+       font-family: 'Kaisei HarunoUmi', serif;
+       font-size: 1.1em;
+    }
     .header{
-       height: 200vh;
-        margin-bottom: 20px;
+        position: relative;
+        background-color: rgb(216, 181, 24);
+        min-height: 220vh;
     }
-   .header .hero{
+    .hero img {
         width: 100%;
-        height: 500px;
-        background-color: rgb(214, 195, 88);
-        border-top-right-radius: 80%;
-        border-bottom-left-radius: 90%;
     }
+    .hero{
+        width: 100%;
+    }
+    .box {
+        top: 60%;
+        left: 15%;
+        width: 70%;
+    }
+    .h-box{ 
+        margin-top: 10%;
+    }
+
+    /* About */
     .about{
-        position: relative;
+        min-height: 170vh;
+        width: 100%;
+    }
+    .about-title{
+        top: 5%;
+        left: -10%;
+        border-radius: 5px;
+        width: 45%;
+    }
+    .about-title h1 {
+        font-size: 1.5em;
+    }
+    .profile-text{
+     margin-top: 10%; 
+    }
+    .container-about{
+        width: 95%;    
+    }
+   .bio-about{
+       display: flex;
+       margin-left: 10%;
+   }
+   .form-label{
+       margin-right: 10%;
+   }
+   .branding-1 ul li {
+    padding-left: 10%;
+}
+/* Skill */
 
-    }
-    
-    .aboutme h2 {
-        font-size: 25px;
-        margin-top: 80px;
-    }
-    
-    .branding-1 ul  {
-        list-style: none;
-        text-decoration: none;
-        font-size: 30px;
-        display: inline-block;
-        padding: 2%;
-    }
-    
-   .about .hero-2{
-        height: 90%;
-        width: 110%;
-        position: relative;
-        top: 10%;
-        left: 0;
-    }
-    .hero-2 h1 strong{
-        transform: rotate(-390deg);
-        font-size: 30px;
-    }
-    .abouth {
-        display: none;
-    }
-    
     .skill {
-        height: 1500px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .skill-html span {
-        margin-left: 82%;
-        font-size: 15px;
-    }
-    .skill-css span {
-        font-size: 15px;
-        margin-left: 67%;
-    }
-    .skill-js span {
-        font-size: 15px;
-        margin-left: 50%;
-    }
-    
-    .skill-2{
-        padding-left: 20px;
         position: relative;
         overflow: hidden;
-        margin-top: -100px;
-        height: 500px;
-       
+        height: 220vh;
+        width: 100%;
+        /* background-color: rgb(216, 181, 24); */
     }
-    .skill-box-2,
-    .skill-box-4 {
+    .skill .skewed{
+        transform: skewY(0deg);
+    }
+    .portfolio-title{
+        width: 60%;
+        background-color:  rgb(0, 0, 0);
         position: absolute;
-        bottom: 10%;
-        right: 10%;
-        overflow: hidden;
+        transform: rotate(-35deg);
+        top: 2%;
+        left: -15%;
+        border-radius: 5px;
     }
-
-    .sb {
-        width: 35%;
-        height: 35%;
-        margin-left: 10%;
-    }
-    .sb h4 {
+    .skill h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 1.5em;
+        color: #fff;
         text-align: center;
     }
-    .sb a i {
-        font-size: 38px;
-        margin-left: 32%;
+    .skill-1 {
+        margin-top: 30%;
+        margin-left: 0;
+        position: relative;
+        height: 100vh;
+        font-family: 'Rubik', sans-serif;
+    }
+    .skill-1 h4{
+        font-size: 2.5em;
+        font-family: 'Rubik', sans-serif;
+        text-shadow: 2px 2px #2475f0;
+        text-align: center;
+    }
+    .skill-css{
+        margin-left: 0;
+    }
+    .skill-js{
+        margin-left: 0;
+    }
+  
+    .skill-1 h2 {
+        font-family: 'Rubik', sans-serif;
+    }
+   /* Skill-2 */
+  
+    .skill-2 {
+        position: relative;
+        margin-top: 100px;
+        background: url(../../../img/buble.png);
+        background-repeat: no-repeat;
+        background-position: 100px -50px;
+    }
+    
+    .sb {
+        top: -40%;
+    }
+    
+    .skill-box-4 {
+        color: rgb(245, 235, 235);
+        top: 15%;
+        right:  10%;
+    }
+    .skill-box-2 {
+        top: -30%;
+        right: 10%;
+    }
+    .skill-box-3 {
+        top: 5%;
+        left: 0;
+    }
+
+    /* Portfolio */
+
+    .portfolio{
+        background-color: #0e0d0d;
+        min-height: 280vh;
+        position: relative;
+    }
+    
+    .container-portfolio{
+        height: 100%;
+        position: relative;
+    }
+    .port-responsive{
+        background-color: #0e0d0d;
+        height: 3%;
+        width: 60%;
+        transform: rotate(0deg);
+        top: 5%;
+        left: -15%;
+        z-index: 878687687;
+    }
+    .port-responsive h1{
+        padding-top: 2%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 1.5em;
+        color: #fff;
+        text-align: center;
+    }
+    .herop{
+        margin-top: 15%;
+    }
+    
+
+        
+    /* Contact */
+    .contact {
+        /* height: 100vh; */
+        position: relative;
+        /* width: 100%; */
+    }
+    .contact-sec{
+        background-color: rgb(216, 181, 24);
+        margin: 5% 0;
+        border-radius: 0;
+    }
+    .contact h1{
+        text-align: center;
+        margin: 4% 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 2.8em;
+    }
+
+    .label-contact{
+        margin-top: 2%;
+        font-size: 0.8em;
+        font-family: 'Roboto', sans-serif;
+    }
+    .input-contact{
+        width: 100%;
+    }
+    .input-contact.textarea{
+        height: 200px;
+    }
+    .contact-btn{
+        width: 100%;
+    }
+    .title-contact{
+        margin-top: 10%;
+        font-size: 2.7em;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+    }
+    .one_half h5{
+        margin-top: 5%;
+    }
+    .maps{
+        margin-top: 10%;
+        border-radius: 4px;
+        border: 5px solid black;
+        box-shadow: 5px 5px 15px rgba(105, 103, 103, 0.5) ;
     }
     iframe {
         width: 100%;
-        padding-bottom: 100px;
     }
-   
-    .last {
-        height: 50px;
-        position: relative;
-        bottom: -500px;
-        left: 0;
-        overflow: hidden;
-    }
-    footer span h4{
-        font-size: 14px;
-        color: wheat;
-        padding-top: 20px;
-     
-    }
-    footer span a {
-        color: white;
-        text-decoration: none;
-    }
+
     
-    .btn-primary {
-        background-color: rgb(34, 34, 102);
-        
-    }
-    .btn-primary span {
-        font-size: 15px;
-    }
-    .h-box  {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 20px;
-    }
-    #myBtn {
+    Btn {
         bottom: 70px; 
       }
 
