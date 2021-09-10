@@ -1,7 +1,5 @@
-@media (min-width: 320px) and (max-width:990px) { 
-    /* * {
-        border:  1px solid red;
-    } */
+@media screen and (max-width: 600px) { 
+  
     body {
         position: relative;
         overflow-x: hidden;
@@ -68,14 +66,10 @@
     }
    .bio-about{
        display: flex;
-       margin-left: 2%;
-   }
-   .form-label{
-       margin-right: 10%;
    }
    .branding-1 ul li {
-    padding-left: 10%;
-}
+    /* padding-left: 10%; */
+    }
 /* Skill */
 
     .skill {
@@ -249,9 +243,9 @@
     iframe {
         width: 100%;
     }
-
     
     Btn {
+        z-index: 8989898989;
         bottom: 70px; 
       }
 
