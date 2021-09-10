@@ -250,7 +250,11 @@
 
  @media screen and (min-width: 601px) and (max-width: 990px)  {
 
+    /* * {
+        border: 2px solid red;
+    } */
     /* Navbar */
+    
     span , .navbar-toggler-icon{
         font-size: 35px;
         outline-style: none;
@@ -271,7 +275,9 @@
     /* header */
 
     .header{
-        /* position: relative; */
+        position: relative;
+        width: 100%;
+        overflow: hidden;
         background-color: rgb(216, 181, 24);
         min-height: 100vh;
         display: flex;
