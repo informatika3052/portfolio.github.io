@@ -67,9 +67,6 @@
    .bio-about{
        display: flex;
    }
-   .branding-1 ul li {
-    /* padding-left: 10%; */
-    }
 /* Skill */
 
     .skill {
@@ -250,3 +247,32 @@
       }
 
  }
+
+ @media (max-width: 1024px) and (min-width: 601px) {
+
+    /* header */
+
+    .header{
+        /* position: relative; */
+        background-color: rgb(216, 181, 24);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .hero img {
+        width: 100%;
+    }
+    .hero{
+        width: 100%;
+    }
+    .box {
+        top: 60%;
+        left:0;
+        width: 100%;
+    }
+    .h-box{ 
+        margin-top: 10%;
+        align-items: center;
+    }
+
+ } 
