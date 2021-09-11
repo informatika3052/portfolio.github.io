@@ -242,7 +242,8 @@
     }
     
     Btn {
-        z-index: 8989898989;
+        position: absolute;
+        z-index: 898989898989008;
         bottom: 70px; 
       }
 
@@ -250,9 +251,9 @@
 
  @media screen and (min-width: 768px) and (max-width: 990px)  {
 
-    * {
+    /* * {
         border: 2px solid red;
-    }
+    } */
     /* Navbar */
     
     span , .navbar-toggler-icon .fa, .fas {
@@ -269,7 +270,7 @@
         width: 100%;
         overflow: hidden;
         background-color: rgb(216, 181, 24);
-        min-height: 70vh;
+        min-height: 60vh;
         display: flex;
         flex-direction: row;
     }
@@ -291,24 +292,25 @@
 
     /* About */
     .about{
-        min-height: 100vh;
+        min-height: 80vh;
         width: 100%;
     }
     .container-about{
         width: 90%;   
-        left: 2%; 
+        left: 5%; 
     }
     .container-about .col-md-8{
         width: 100%;
     }
     .container-about .col-md-8 .respo-ip{
+        padding: 0 10%;
         margin: auto 10%;
         width: 100%;
     }
     .container-about .branding-ip{
         position: absolute;
-        top: 70%;
-        left: 20%;
+        top: 80%;
+        left: 25%;
         width: 100%;
     }
     .about .container-about h2{
@@ -320,5 +322,157 @@
    .bio-about{
        display: flex;
    }
+   .form-label{
+    margin-right: 10%;
+   }
 
+   
+   .skill {
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(216, 181, 24); */
+    }
+   
+    .skill-a .col-md-5 {
+        width: 100%;
+        margin-top: -10%;
+    }
+
+    .skill-1 h2 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 3em;
+        text-align: center;
+    }
+    .skill-1 h6 {
+        font-size: 2em;
+         }
+    .portfolio-title{
+        width: 60%;
+        background-color:  rgb(0, 0, 0);
+        position: absolute;
+        transform: rotate(-35deg);
+        top: 5%;
+        left: -18%;
+    }
+    .skill h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 2em;
+        color: #fff;
+        text-align: center;
+    }
+    .skill-1 {
+        margin-top: 30%;
+        margin-left: 0;
+        position: relative;
+        height: 100vh;
+        font-family: 'Rubik', sans-serif;
+    }
+    .skill-1 h4{
+        font-size: 2.5em;
+        font-family: 'Rubik', sans-serif;
+        text-shadow: 2px 2px #2475f0;
+        text-align: center;
+    }
+    .skill-css{
+        margin-left: 0;
+    }
+    .skill-js{
+        margin-left: 0;
+    }
+
+    
+    /* Skill-2 */
+
+    .skill-2 {
+        position: absolute;
+        top: 65%;
+        left: 20%;
+        margin-top: 0;
+        background: url(../../../img/buble.png);
+        background-repeat: no-repeat;
+        background-position: 100px -50px;
+    }
+
+    .sb {
+        top: -10%;
+        width: 200px;
+        height: 200px;
+    }
+    .sb a i {
+        font-size: 50px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    .skill-box-4 {
+        color: rgb(245, 235, 235);
+        top: 38%;
+        right:  3%;
+    }
+    .skill-box-2 {
+        top: 0;
+        right: 3%;
+    }
+    .skill-box-3 {
+        top: 30%;
+        left: 0;
+    }
+
+      /* Portfolio */
+
+      .portfolio{
+
+        background-color: #0e0d0d;
+        min-height: 180vh;
+        position: relative;
+    }
+    
+    .container-portfolio{
+        height: 180vh;
+        width: 100%;
+        position: relative;
+    }
+    .port-responsive{
+        background-color: rgb(0, 0, 0);
+        margin: 5% 0;
+        border-radius: 0;
+        position: absolute;
+        transform: rotate(0deg);
+        top: 5%;
+        left: 0;
+        width: 100%;
+        border-radius: 5px;
+        z-index: 12121212;
+    }
+    .port-responsive h1{
+        padding-top: 5%;
+        text-align: center;
+        border-radius: 0;
+    }
+    .ro-herop{
+     position: absolute;
+     top: 10%;
+    }
+    
+    .herop{
+        width: 100%;
+    }
+    .contact-sec{
+        background-color: rgb(216, 181, 24);
+        margin: 5% 0;
+        width: 100%;
+    }
+    .contact h1{
+        text-align: center;
+        margin: 4% 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 2.8em;
+    }
+
+    Btn {
+        position: absolute;
+        z-index: 898989898989008;
+        bottom: 70px; 
+      }
  } 
