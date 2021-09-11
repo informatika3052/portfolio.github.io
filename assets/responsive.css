@@ -270,7 +270,7 @@
         width: 100%;
         overflow: hidden;
         background-color: rgb(216, 181, 24);
-        min-height: 60vh;
+        min-height: 40vh;
         display: flex;
         flex-direction: row;
     }
@@ -292,7 +292,7 @@
 
     /* About */
     .about{
-        min-height: 80vh;
+        min-height: 60vh;
         width: 100%;
     }
     .container-about{
@@ -328,7 +328,7 @@
 
    
    .skill {
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     /* background-color: rgb(216, 181, 24); */
     }
@@ -420,15 +420,14 @@
 
       /* Portfolio */
 
-      .portfolio{
-
+    .portfolio{
         background-color: #0e0d0d;
-        min-height: 180vh;
+        min-height: 120vh;
         position: relative;
     }
     
     .container-portfolio{
-        height: 180vh;
+        height: 120vh;
         width: 100%;
         position: relative;
     }
