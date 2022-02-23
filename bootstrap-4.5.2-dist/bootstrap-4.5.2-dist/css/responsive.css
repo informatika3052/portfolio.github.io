@@ -1,0 +1,155 @@
+@media (min-width: 320px) and (max-width:990px) { 
+    /* * {
+        border:  1px solid red;
+    } */
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
+   span , .navbar-toggler-icon{
+       font-size: 35px;
+       outline-style: none;
+       margin-top: 10px;
+    }
+       
+    .navbar {
+        background-color: rgb(63, 53, 107);
+        box-shadow: 0px 2px 15px rgba(0,0,0,0.3);
+        font-family: 'Underdog', cursive;
+        
+    }
+    .header{
+        position: relative;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    .hero{
+        width: 90%;
+        height: 300px;
+        margin: 10px;
+    }
+    .hero img {
+        width: 100%;
+        /* height: 100%; */
+    }
+    .about{
+        position: relative;
+       
+    }
+    
+    .aboutme h2 {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+    
+    .branding-1 ul li {
+        list-style: none;
+        text-decoration: none;
+        font-size: 32px;
+        display: inline-block;
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+    
+    .hero-2{
+        background: url(../../../img/about.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        transform: rotate(180deg);
+        position: relative;
+        top: 0;
+        left: -20px;
+    }
+    .hero-2 h1{
+        transform: rotate(170deg);
+        font-size: 30px;
+    }
+    .skill {
+        height: 1500px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .skill-html span {
+        margin-left: 82%;
+        font-size: 15px;
+    }
+    .skill-css span {
+        font-size: 15px;
+        margin-left: 67%;
+    }
+    .skill-js span {
+        font-size: 15px;
+        margin-left: 50%;
+    }
+    
+    .skill-2{
+        padding-left: 20px;
+        position: relative;
+        overflow: hidden;
+        margin-top: -100px;
+        height: 500px;
+       
+    }
+    .skill-box-2,
+    .skill-box-4 {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        overflow: hidden;
+    }
+
+    .sb {
+        width: 35%;
+        height: 35%;
+        margin-left: 10%;
+    }
+    .sb h4 {
+        text-align: center;
+    }
+    .sb a i {
+        font-size: 38px;
+        margin-left: 32%;
+    }
+    iframe {
+        width: 100%;
+        padding-bottom: 100px;
+    }
+   
+    .last {
+        height: 50px;
+        position: relative;
+        bottom: -500px;
+        left: 0;
+        overflow: hidden;
+    }
+    footer span h4{
+        font-size: 14px;
+        color: wheat;
+        padding-top: 20px;
+     
+    }
+    footer span a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .btn-primary {
+        background-color: rgb(34, 34, 102);
+        
+    }
+    .btn-primary span {
+        font-size: 15px;
+    }
+    .h-box  {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 20px;
+    }
+    #myBtn {
+        bottom: 70px; 
+      }
+
+ }
