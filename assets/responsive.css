@@ -45,10 +45,11 @@
     .h-box{ 
         margin-top: 10%;
     }
+    
 
     /* About */
     .about{
-        min-height: 170vh;
+        height: 130vh;
         width: 100%;
     }
     .about-title{
@@ -73,20 +74,20 @@
     }
    .bio-about{
        display: flex;
-       margin-left: 10%;
+       margin-left: 5%;
    }
    .form-label{
-    padding-left: 10%;
+    padding-left: 5%;
     }
     .branding-1 ul {
-    margin-left: 10%;
+    margin-left: 5%;
     }
 /* Skill */
 
     .skill {
         position: relative;
         overflow: hidden;
-        height: 170vh;
+        height: 140vh;
         width: 100%;
         /* background-color: rgb(216, 181, 24); */
     }
@@ -175,12 +176,12 @@
 
     .portfolio{
         background-color: #0e0d0d;
-        min-height: 280vh;
+        min-height: 180vh;
         position: relative;
     }
     
     .container-portfolio{
-        height: 250vh;
+        height: 160vh;
         position: relative;
     }
     .port-responsive{
@@ -286,27 +287,29 @@
 
     .header{
         position: relative;
-        width: 100%;
         overflow: hidden;
-        background-color: rgb(216, 181, 24);
-        min-height: 40vh;
-        display: flex;
-        flex-direction: row;
+        min-height: 100vh;
     }
     .box {
-        top: 50%;
+        top: 60%;
         left:0;
         width: 90%;
-    }
-    .hero img {
-        width: 100%;
     }
     .hero{
         width: 90%;
     }
     .h-box{ 
         margin-top: 10%;
+        width: 30%;
         align-items: center;
+    }
+    .h-box h5{ 
+        font-size: 1em;
+    }
+    .fa-laptop-code, 
+    .fa-laptop-medical, 
+    .fa-laptop-house {
+        font-size: 1.1em;
     }
 
     /* About */
