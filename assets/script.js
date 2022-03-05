@@ -78,3 +78,11 @@ function topFunction() {
     });
 
 }
+
+const heroImg = document.querySelector('.hero img');
+// console.log(heroImg);
+window.addEventListener('scroll', function () {
+    let value = window.scrollY;
+    console.log(value);
+    heroImg.style.top = value * 0.3 + 'px';
+})
