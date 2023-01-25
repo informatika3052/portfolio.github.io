@@ -78,7 +78,7 @@ function topFunction() {
     });
 
 }
-
+// oioi
 const heroImg = document.querySelector('.hero img');
 // console.log(heroImg);
 window.addEventListener('scroll', function () {
