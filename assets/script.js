@@ -49,8 +49,6 @@ function createSquare() {
 }
 
 setInterval(createSquare, 150);
-
-
 // button scroll top
 
 mybutton = document.getElementById("myBtn");
